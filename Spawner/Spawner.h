@@ -29,7 +29,7 @@ protected:
 	virtual void Tick(float DeltaSeconds) override;
 
 	
-	//Edit
+	//Editable Variables
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<AActor> ActorToSpawnAsset;
 
@@ -55,12 +55,12 @@ protected:
 	int SpawnAreaRandMax = 100;
 
 	
-	//Visible
+	//Visible Variables
 	UPROPERTY(VisibleAnywhere)
 	TArray<AActor*> SpawnedActors;
 
 	
-	//Internal
+	//Internal Variables
 	UPROPERTY()
 	float CurrentTime = 0;
 	
