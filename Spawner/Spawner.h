@@ -13,6 +13,7 @@ class OPTIMIZATIONPROJECT_API ASpawner : public AActor
 {
 	GENERATED_BODY()
 
+
 public:
 	//Constructor
 	ASpawner();
